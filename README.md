@@ -3,7 +3,7 @@ This project implements Neural Style Transfer, a deep learning technique that co
 
 The generated image is optimized using content loss and style loss, with the Adam optimizer updating the image over multiple iterations. Gram matrices are used to capture the style information from different VGG19 layers.
 
-#Technologies Used:
+Technologies Used:
 
 Python
 TensorFlow / Keras
@@ -12,7 +12,7 @@ NumPy
 Matplotlib
 Google Colab
 
-#Key Features:
+Key Features:
 
 Extracts deep content and style features using VGG19.
 Uses Gram matrices for style representation.
